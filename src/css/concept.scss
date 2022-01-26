@@ -1,0 +1,76 @@
+.concept {
+  padding: 161px 0 70px;
+  background: linear-gradient(180.3deg, #000000 1.63%, rgba(0, 0, 0, 0.26) 19.46%, rgba(0, 0, 0, 0) 54.49%, rgba(0, 0, 0, 0.46) 88.31%, #000000 106.26%), linear-gradient(90.11deg, rgba(0, 0, 0, 0.6) 1.75%, rgba(0, 0, 0, 0.156) 18.47%, rgba(0, 0, 0, 0) 51.34%, rgba(0, 0, 0, 0.156) 80.65%, rgba(0, 0, 0, 0.6) 99.9%), url("../image/concept/bg.png");
+
+  &__title {
+    @include text(bold, 43px, 62px, #fff);
+    text-transform: uppercase;
+    margin-bottom: 58px;
+  }
+
+  &__content {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    column-gap: 50px;
+    &-descr {
+      @include text(normal, 18px, 26px, #fff);
+      margin-bottom: 51px;
+    }
+    &-btn {
+      @include text(bold, 22.2603px, 32px, #fff);
+      width: 264.45px;
+      height: 65px;
+      border: 1.78082px solid #C4C4C4;
+      border-radius: 7.15189px;
+      text-transform: uppercase;
+      background-color: transparent;
+      transition: .3s;
+      &:hover {
+        background-color: slategray;
+        transition: .3s;
+      }
+    }
+    &-buttons {
+      display: flex;
+      column-gap: 44px;
+    }
+    &-border {
+      background: linear-gradient(180deg, #5B2B30 -90.77%, #6B3935 12.11%, #A25B48 97.02%);
+      border-radius: 5.49533px 5.49533px 0 0;
+      width: 534px;
+      height: 65px;
+    }
+    &-title {
+      @include text(bold, 22.2603px, 32px, #fff);
+      display: flex;
+      column-gap: 13px;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 0 17px;
+      text-shadow: 0 1.83178px 0 rgba(152, 97, 86, 0.35);
+    }
+    &-info {
+      background: rgba(0, 0, 0, 0.29);
+      border: 3px solid #515050;
+      box-sizing: border-box;
+      border-radius: 0 0 25px 25px;
+      margin-bottom: 40px;
+    }
+    &-list {
+      @include text(600, 20px, 150%,#ffffff50);
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.68)!important;
+      padding: 22px 0 24px 74px;
+    }
+    &-item {
+      display: flex;
+      column-gap: 25px;
+      transition: .3s;
+      &:hover {
+        color: #FF3F3A;
+        transition: .3s;
+      }
+    }
+  }
+}

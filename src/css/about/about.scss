@@ -1,0 +1,99 @@
+.private {
+  padding: 200px 0 85px;
+  &__title {
+    @include text(bold, 43px, 62, #fff);
+    line-height: 62px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    transition: .3s;
+    cursor: pointer;
+    &:hover {
+      color: #FF3F3A;
+      transition: .3s;
+    }
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+  }
+  &__content {
+    padding: 103px 423px 101px 67px;
+    background: rgba(0, 0, 0, 0.48);
+    border: 3px solid #FF592C;
+    box-sizing: border-box;
+    box-shadow: 0 4px 40px rgba(255, 61, 22, 0.3), 0 4px 4px rgba(0, 0, 0, 0.59);
+    border-radius: 25px;
+    position: relative;
+    &-logo {
+      display: flex;
+      column-gap: 27px;
+      margin-bottom: 50px;
+    }
+    &-descr {
+      display: flex;
+      flex-direction: column;
+    }
+    &-title {
+      @include text(bold, 38px, 55px, #fff);
+      text-transform: uppercase;
+      transition: .3s;
+      cursor: pointer;
+      &:hover {
+        color: #FF3F3A;
+        transition: .3s;
+      }
+    }
+    &-subtitle {
+      @include text(500, 20px, 29px, #ffffff99);
+      text-transform: uppercase;
+      transition: .3s;
+      cursor: pointer;
+      &:hover {
+        color: #FF3F3A;
+        transition: .3s;
+      }
+    }
+    &-calendar {
+     display: flex;
+      column-gap: 38px;
+    }
+    &-time {
+      background: #FF592C;
+      border: 1.56479px solid #DBDBDB;
+      box-sizing: border-box;
+      border-radius: 4px;
+      width: 139px;
+      height: 76px;
+      z-index: 2;
+      transition: .3s;
+      cursor: pointer;
+      &:hover {
+        background-color: gray;
+        transition: .3s;
+      }
+    }
+    &-text {
+      @include text(normal, 57.5156px, 76px, #fff);
+      padding: 0 34px;
+    }
+    &-under {
+      @include text(normal, 16px, 23px, #fff);
+      display: flex;
+      column-gap: 150px;
+      text-align: center;
+    }
+    &-info {
+      z-index: 2;
+      margin-top: 10px;
+    }
+    &-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(7%, -20%);
+    }
+  }
+}

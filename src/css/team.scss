@@ -1,0 +1,78 @@
+.team {
+  padding: 104px 0 14px;
+  background: linear-gradient(179.9deg, #000000 2.39%, rgba(0, 0, 0, 0.26) 20.21%, rgba(0, 0, 0, 0) 39.84%, rgba(0, 0, 0, 0.46) 53.6%, #000000 76.52%), linear-gradient(90.11deg, rgba(0, 0, 0, 0.6) 1.75%, rgba(0, 0, 0, 0.156) 18.47%, rgba(0, 0, 0, 0) 51.34%, rgba(0, 0, 0, 0.156) 80.65%, rgba(0, 0, 0, 0.6) 99.9%), url("../image/team/background.png");
+
+  &__title {
+    @include text(bold, 43px, 62px, #fff);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__subtitle {
+    @include text(normal, 18px, 26px, #fff);
+    text-align: center;
+    margin: 34px 0 58px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__btn {
+    @include text(bold, 22.2603px, 32px, #774200);
+    width: 398px;
+    height: 65px;
+    margin-top: 58px;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__singular {
+    width: 16.66666%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    &-img {
+      width: 100%;
+    }
+    &-logo{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 50%);
+      width: 100%;
+    }
+    &-content {
+      width: 100%;
+      text-align: center;
+      transition: .3s;
+    }
+
+    &-info {
+      position: absolute;
+      left: -200px;
+      width: 100%;
+      transition: .3s;
+      top: 0;
+    }
+  }
+}
+
+.team__singular .team__singular-content {
+  transform: translate(0, 0);
+}
+
+.team__singular-content {
+  transform: translate(0, 0);
+}
+
+.team__singular .team__singular-content:hover {
+  transform: translate(200px, 0);
+}
+
+.team__singular-content:hover {
+  transform: translate(200px, 0);
+}

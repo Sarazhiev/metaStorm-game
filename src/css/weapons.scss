@@ -1,0 +1,116 @@
+.weapons {
+  padding: 50px 0 127px;
+  background: #090a27;
+  &__title {
+    @include text(bold, 43px, 62px, #fff);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+.outer {
+  margin: 0 auto;
+}
+
+#big .item {
+  background-color: black;
+  width: 1136px;
+  height: 505px;
+  margin-bottom: 50px;
+  img {
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+  }
+  border: 3px solid #6625D6;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 40px rgba(80, 31, 164, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
+  border-radius: 25px;
+  color: #FFF;
+  text-align: center;
+}
+
+#thumbs .item,.item2 {
+  img{
+    width: 100%;
+    border-radius: 25px;
+  }
+  background: #000;
+  width: 280px;
+  height: 180px;
+  line-height: 70px;
+  padding: 0;
+  margin: 2px;
+  color: #FFF;
+  border-radius: 25px;
+  border: 1px solid #FF3F3A;
+  text-align: center;
+  cursor: pointer;
+}
+.item2 {
+  border: 1px solid #ffffff;
+}
+
+#thumbs .item h1 {
+  font-size: 18px;
+}
+
+#thumbs .current .item {
+}
+
+//.owl-theme .owl-nav [class*='owl-'] {
+//  -webkit-transition: all .3s ease;
+//  transition: all .3s ease;
+//}
+
+//.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+//  background-color: #D6D6D6;
+//}
+
+#big.owl-theme {
+  position: relative;
+}
+
+#big.owl-theme .owl-next, #big.owl-theme .owl-prev {
+  width: 22px;
+  line-height: 40px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  color: white;
+}
+
+#big.owl-theme .owl-prev {
+  left: -70px;
+  font-size: 40px;
+}
+
+#big.owl-theme .owl-next {
+  right: -60px;
+  font-size: 40px;
+}
+
+.owl-prev, .owl-next span {
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.owl-next, .owl-prev span {
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.by {
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+//#thumbs.owl-theme .owl-next, #thumbs.owl-theme .owl-prev {
+//  background: #333;
+//}

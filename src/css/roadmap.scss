@@ -1,0 +1,27 @@
+.roadmap {
+  padding: 112px 0 50px;
+  background: linear-gradient(180.41deg, #000000 4.14%, rgba(0, 0, 0, 0.26) 19.52%, rgba(0, 0, 0, 0) 49.74%, rgba(0, 0, 0, 0) 76.71%, #000000 94.41%), linear-gradient(90.11deg, rgba(0, 0, 0, 0.9) 1.75%, rgba(0, 0, 0, 0.234) 18.47%, rgba(0, 0, 0, 0) 51.34%, rgba(0, 0, 0, 0.234) 80.65%, rgba(0, 0, 0, 0.9) 99.9%), url("../image/roadmap/backg.png");
+  &__title {
+    @include text(bold, 43px, 1, #fff);
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  &__content {
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    &-list {
+      @include text(normal, 16px, 33px, #ffffff50);
+      transition: .3s;
+      &:hover {
+        color: #FF3F3A;
+        transition: .3s;
+      }
+    }
+    &-row {
+      display: flex;
+      justify-content: center;
+      column-gap: 60px;
+    }
+  }
+}

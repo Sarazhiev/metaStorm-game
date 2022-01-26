@@ -1,0 +1,10 @@
+
+
+@mixin text ($fw, $fs, $lh, $col) {
+  font-weight: $fw;
+  font-size: $fs;
+  @if $lh != 0 {
+    line-height: $lh;
+  }
+  color: $col;
+}

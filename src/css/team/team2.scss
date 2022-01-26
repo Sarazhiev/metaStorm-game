@@ -1,0 +1,76 @@
+.team2 {
+  padding: 150px 0 91px;
+  background: url("https://oir.mobi/uploads/posts/2021-01/thumbs/1611928998_29-p-krasivii-temnii-fon-dlya-fotoshopa-29.png") top / cover no-repeat,  linear-gradient(180.3deg, #000000 1.63%, rgba(0, 0, 0, 0.26) 19.46%, rgba(0, 0, 0, 0) 54.49%, rgba(0, 0, 0, 0.46) 88.31%, #000000 106.26%), linear-gradient(90.11deg, rgba(0, 0, 0, 0.6) 1.75%, rgba(0, 0, 0, 0.156) 18.47%, rgba(0, 0, 0, 0) 51.34%, rgba(0, 0, 0, 0.156) 80.65%, rgba(0, 0, 0, 0.6) 99.9%);
+  &__title {
+    @include text(bold, 43px, 62px, #fff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 31px;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__singular {
+    background: rgba(196, 196, 196, 0.18);
+    width: 25%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    &-img {
+      width: 100%;
+    }
+    &-text {
+      @include text(500, 25px, 52px, #fff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      padding-top: 30px;
+    }
+    &-subtitle {
+      @include text(normal, 23px, 26px, #fff);
+      color: rgba(255, 255, 255, 0.41)!important;
+    }
+    &-content {
+      width: 100%;
+      text-align: center;
+      transition: .3s;
+    }
+    &-logo{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 50%);
+      width: 100%;
+    }
+    &-info {
+      position: absolute;
+      left: -300px;
+      width: 100%;
+      transition: .3s;
+      top: 0;
+    }
+  }
+}
+
+
+
+
+.team2__singular .team2__singular-content {
+  transform: translate(0, 0);
+}
+
+.team2__singular-content {
+  transform: translate(0, 0);
+}
+
+.team2__singular .team2__singular-content:hover {
+  transform: translate(300px, 0);
+}
+
+.team2__singular-content:hover {
+  transform: translate(300px, 0);
+}

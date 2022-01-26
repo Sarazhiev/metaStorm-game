@@ -1,0 +1,47 @@
+.play {
+  padding: 50px 0 126px;
+  background: url("../image/play/bg.png") center / cover no-repeat, radial-gradient(circle, rgba(125,128,144,1) 0%, rgba(0,0,0,1) 69%, rgba(0,0,0,1) 70%) ;
+
+  background-blend-mode: multiply;
+  &__icons {
+    display: flex;
+    column-gap: 157px;
+    justify-content: center;
+    text-align: center;
+  }
+  &__text {
+    @include text(600, 30px, 196.5%, #febb41);
+    text-transform: uppercase;
+  }
+  &__video {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  &__play {
+    display: flex;
+    align-items: center;
+
+    &-circle {
+      content: '';
+      position: absolute;
+      border-radius: 20px;
+      top: 50%;
+      left: 50%;
+      width: 122.11px;
+      height: 87.07px;
+      background-color: #FF3F3A;
+      transform: translate(-50%, -50%);
+      &::after {
+        content: '►';
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-38%, -50%);
+      }
+    }
+  }
+}

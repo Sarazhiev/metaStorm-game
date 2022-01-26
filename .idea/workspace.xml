@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="789ccc0d-5b77-4201-a2c7-cbaff4d38f8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23hOglcQftpVjOhSsW01oD78gQ0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\personal-project1" />
+      <recent name="C:\personal-project1\src" />
+      <recent name="C:\personal-project1\src\pages\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\personal-project1\src\js" />
+      <recent name="C:\personal-project1\src\image\meta" />
+      <recent name="C:\personal-project1\src\image\package" />
+      <recent name="C:\personal-project1\src\image\private" />
+      <recent name="C:\personal-project1\src\image\team" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="789ccc0d-5b77-4201-a2c7-cbaff4d38f8d" name="Default Changelist" comment="" />
+      <created>1642182965173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642182965173</updated>
+      <workItem from="1642182966665" duration="349000" />
+      <workItem from="1642183370987" duration="101000" />
+      <workItem from="1642183487573" duration="282000" />
+      <workItem from="1642183825365" duration="1369000" />
+      <workItem from="1642185358521" duration="111000" />
+      <workItem from="1642232854506" duration="81000" />
+      <workItem from="1642232963829" duration="127000" />
+      <workItem from="1642233142727" duration="1083000" />
+      <workItem from="1642234301298" duration="1940000" />
+      <workItem from="1642238046863" duration="517000" />
+      <workItem from="1642238861849" duration="12515000" />
+      <workItem from="1642251747195" duration="8953000" />
+      <workItem from="1642333961223" duration="7040000" />
+      <workItem from="1642399861764" duration="2000" />
+      <workItem from="1642399981765" duration="2136000" />
+      <workItem from="1642402211975" duration="506000" />
+      <workItem from="1642402764133" duration="3172000" />
+      <workItem from="1642406099031" duration="3068000" />
+      <workItem from="1642413654565" duration="2358000" />
+      <workItem from="1642424139945" duration="322000" />
+      <workItem from="1642491038054" duration="1867000" />
+      <workItem from="1642493009131" duration="24885000" />
+      <workItem from="1642537387480" duration="6173000" />
+      <workItem from="1642586523223" duration="79000" />
+      <workItem from="1642602074803" duration="1818000" />
+      <workItem from="1642610249101" duration="19000" />
+      <workItem from="1642658683824" duration="914000" />
+      <workItem from="1642664449977" duration="8220000" />
+      <workItem from="1642676932761" duration="10951000" />
+      <workItem from="1642692343242" duration="1966000" />
+      <workItem from="1642752139525" duration="5741000" />
+      <workItem from="1642761311785" duration="3875000" />
+      <workItem from="1642769933526" duration="479000" />
+      <workItem from="1642783672359" duration="8603000" />
+      <workItem from="1642843013552" duration="3182000" />
+      <workItem from="1642846275979" duration="7897000" />
+      <workItem from="1642855076168" duration="83000" />
+      <workItem from="1642855181995" duration="26000" />
+      <workItem from="1642855228455" duration="1599000" />
+      <workItem from="1642857970333" duration="4731000" />
+      <workItem from="1642866944869" duration="38000" />
+      <workItem from="1642867016647" duration="64000" />
+      <workItem from="1642876861791" duration="6535000" />
+      <workItem from="1642925596248" duration="19093000" />
+      <workItem from="1642963403050" duration="5939000" />
+      <workItem from="1643011517769" duration="1640000" />
+      <workItem from="1643019783923" duration="3717000" />
+      <workItem from="1643029640807" duration="7386000" />
+      <workItem from="1643047794844" duration="3383000" />
+      <workItem from="1643106632236" duration="4278000" />
+      <workItem from="1643114236957" duration="164000" />
+      <workItem from="1643116574080" duration="433000" />
+      <workItem from="1643122916155" duration="65000" />
+      <workItem from="1643124094630" duration="592000" />
+      <workItem from="1643124804236" duration="13000" />
+      <workItem from="1643124935309" duration="859000" />
+      <workItem from="1643133416300" duration="542000" />
+      <workItem from="1643185324259" duration="567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642500120477">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="499" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1536.824@0.40.1536.824" timestamp="1642500120477" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1642787156798">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.40.1536.824@0.40.1536.824" timestamp="1642787156798" />
+    <state x="425" y="207" key="run.anything.popup" timestamp="1642967726913">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="425" y="207" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1642967726913" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1642678898224">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1642678898224" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/js/main.js</url>
+          <line>125</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

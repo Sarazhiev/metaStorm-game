@@ -1,0 +1,50 @@
+.meta {
+  padding: 232px 0 100px;
+  position: relative;
+
+  //background: url("../image/meta/background.png") center / cover no-repeat, linear-gradient(90.64deg, rgba(0, 0, 0, 0.53) 10.09%, rgba(0, 0, 0, 0.56) 46.46%, rgba(0, 0, 0, 0) 92.25%);
+  //background-blend-mode: multiply;
+  &__list {
+    margin: 48px 0;
+  }
+  &__icon {
+    display: flex;
+  }
+  &__list-item {
+    display: flex;
+    column-gap: 21px;
+    align-items: center;
+  }
+  &__text {
+    @include text(600, 27.8383px, 196.5%,#ffffff50);
+    text-transform: uppercase;
+    &:hover {
+      color: gold;
+    }
+  }
+  &__btn {
+    @include text(bold, 22.2603px, 32px, #c4c4c4);
+    text-transform: uppercase;
+    border: 1.78082px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 7.15189px;
+    background: transparent;
+    width: 264.45px;
+    height: 65px;
+    margin-left: 45px;
+    transition: .3s;
+    &:hover {
+      background: slategray;
+      transition: .3s;
+    }
+  }
+}
+  .video__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+

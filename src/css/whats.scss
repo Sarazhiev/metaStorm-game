@@ -1,0 +1,71 @@
+.whats {
+  background: rgb(2,11,0);
+  background: linear-gradient(90deg, rgba(2,11,0,1) 51%, rgba(101,105,89,1) 83%);
+  filter: drop-shadow(0px 60px 38px rgba(0, 0, 0, 0.09));
+  position: relative;
+  padding-bottom: 200px;
+  &__content {
+    display: flex;
+    &-info {
+      margin: 50px 0 0 100px;
+    }
+    &-left{
+      width: 60%;
+      background: url("../image/whats/bg3.png") 1000%;
+      display: flex;
+    }
+    &-title {
+      @include text(600, 43px, 62px, #fff);
+    }
+    &-text {
+      @include text(bold, 90px, 182px, white)
+    }
+    &-double {
+      display: flex;
+      column-gap: 15px;
+    }
+    &-symbol {
+      @include text(bold, 71.6667px, 104px, #fff);
+    }
+    &-descr {
+      @include text(normal, 18px, 26px, #fff);
+      margin-top: 62px;
+      padding-bottom: 100px;
+    }
+    &-right {
+      width: 40%;
+      background: url("../image/whats/background.png") top left / 100% 100% no-repeat;
+      filter: drop-shadow(0px 60px 38px rgba(0, 0, 0, 0.09));
+      img {
+        width: 100%;
+      }
+
+    }
+    &-shard {
+      position: absolute;
+      top: -90px;
+      left: -100px;
+    }
+    &-shard2 {
+      position: absolute;
+      top: 100px;
+      left: -10px;
+    }
+    &-shard3 {
+      position: absolute;
+      bottom: 150px;
+      left: -10px;
+    }
+    &-shard4 {
+      position: absolute;
+      bottom: 50px;
+      left: 200px;
+    }
+    &-shard5 {
+      position: absolute;
+      bottom: 100px;
+      left: 500px;
+    }
+  }
+}
+

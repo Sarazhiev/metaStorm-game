@@ -1,0 +1,107 @@
+.token {
+  padding: 142px 0 172px;
+  background: url("../image/token/bg.png") center top / cover no-repeat, radial-gradient(91.24% 155.57% at 15.5% 22.89%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 57.58%, rgba(70, 144, 213, 0) 100%);
+  position: relative;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-title {
+      @include text(normal, 18px, 26px, #fff);
+      font-weight: bold;
+      font-size: 43px;
+      line-height: 62px;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding-left: 50px;
+      transition: .3s;
+      &:hover {
+        color: red;
+        transition: .3s;
+      }
+    }
+    &-left {
+      width: 50%;
+    }
+    &-info {
+      width: 450px;
+      background: rgba(196, 196, 196, 0.1);
+      border: 2px solid #515050;
+      box-sizing: border-box;
+      border-radius: 20px;
+      display: flex;
+      column-gap: 25px;
+      padding: 23px 0 23px 40px;
+      margin: 28px 0 46px;
+      &:hover {
+        background-color: slategray;
+        transform: scale(1.1);
+      }
+    }
+    &-text {
+      display: flex;
+      flex-direction: column;
+    }
+    &-descr {
+      @include text(600, 24px, 35px, #FFA12A);
+    }
+    &-under {
+      @include text(normal, 18px, 26px, #fff);
+    }
+    &-logo {
+      display: flex;
+      align-items: flex-end;
+    }
+    &-list {
+      padding: 0!important;
+    }
+    &-item {
+      @include text(normal, 18px, 26px, #fff);
+      display: flex;
+      column-gap: 19px;
+      margin-bottom: 8px;
+    }
+    &-icon {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    &-used {
+      transition: .3s;
+      &:hover {
+        color: red;
+        transition: .3s;
+      }
+    }
+    &-right {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    &-shard {
+      position: absolute;
+      top: 5%;
+      left: -10%;
+      z-index: 2;
+    }
+    &-shard2 {
+      position: absolute;
+      top: 20%;
+      left: -5%;
+      z-index: 2;
+    }
+    &-shard3 {
+      position: absolute;
+      top: 34%;
+      left: -10%;
+      z-index: 2;
+    }
+    &-shard4 {
+      position: absolute;
+      top: 50%;
+      left: -5%;
+      z-index: 2;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.metaverse {
+  padding: 69px 0 141px;
+  background: linear-gradient(177.2deg, #000000 5.89%, rgba(0, 0, 0, 0.26) 20.64%, rgba(0, 0, 0, 0) 49.62%, rgba(0, 0, 0, 0.44) 64.38%, #000000 92.45%), linear-gradient(90.11deg, rgba(0, 0, 0, 0.1) 1.75%, rgba(0, 0, 0, 0.026) 18.47%, rgba(0, 0, 0, 0) 51.34%, rgba(0, 0, 0, 0.026) 80.65%, rgba(0, 0, 0, 0.1) 99.9%), url("../image/metaverse/bg1.png") center / cover no-repeat;
+  ;
+  &__title {
+    @include text(bold, 43px, 62px, #fff);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__subtitle {
+    @include text(normal, 18px, 26px, #fff);
+    text-align: center;
+    margin: 21px 0 97px;
+  }
+  &__video {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  &__play {
+    display: flex;
+    align-items: center;
+    &-circle {
+      content: '';
+      position: absolute;
+      border-radius: 20px;
+      top: 50%;
+      left: 50%;
+      width: 122.11px;
+      height: 87.07px;
+      background-color: #FF3F3A;
+      transform: translate(-50%, -50%);
+      &::after {
+        content: '►';
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-38%, -50%);
+      }
+    }
+  }
+}

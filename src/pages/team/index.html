@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" href="../../image/header/logo.png">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="header__navbar">
+            <div class="header__logo">
+                <a href="../../../index.html"><img class="header__img" src="../../image/header/logo.png" alt="logo"></a>
+            </div>
+            <ul class="header__list">
+                <li class="header__list-item"><a class="header__link" href="../../../index.html">Main</a></li>
+                <li class="header__list-item"><a class="header__link" href="../../pages/about/index.html">About</a></li>
+                <li class="header__list-item"><a class="header__link" href="#">Team</a></li>
+            </ul>
+            <div class="header__icons">
+                <a class="header__icon" href="https://twitter.com/" target="_blank">
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#C4C4C4"/>
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M34 16.207C33.193 16.5646 32.326 16.8063 31.4146 16.9155C32.355 16.3528 33.0586 15.4671 33.394 14.4238C32.5104 14.9486 31.5434 15.318 30.535 15.516C29.8569 14.7919 28.9587 14.312 27.9799 14.1507C27.001 13.9895 25.9963 14.1559 25.1218 14.6241C24.2472 15.0924 23.5517 15.8362 23.1432 16.7403C22.7348 17.6443 22.6362 18.6579 22.8628 19.6237C21.0725 19.5338 19.3211 19.0685 17.7223 18.2579C16.1235 17.4473 14.7129 16.3096 13.5823 14.9187C13.1957 15.5856 12.9734 16.3588 12.9734 17.1823C12.9729 17.9236 13.1555 18.6535 13.5048 19.3074C13.8542 19.9612 14.3595 20.5187 14.976 20.9304C14.261 20.9077 13.5618 20.7145 12.9366 20.3669V20.4249C12.9366 21.4647 13.2962 22.4724 13.9546 23.2771C14.6129 24.0819 15.5294 24.6341 16.5485 24.84C15.8853 25.0195 15.1899 25.0459 14.515 24.9173C14.8025 25.8119 15.3626 26.5942 16.1168 27.1547C16.8711 27.7152 17.7817 28.0258 18.7213 28.043C17.1263 29.2951 15.1566 29.9742 13.129 29.9712C12.7698 29.9713 12.4109 29.9504 12.0542 29.9084C14.1124 31.2318 16.5083 31.9341 18.9552 31.9313C27.2382 31.9313 31.7664 25.071 31.7664 19.1211C31.7664 18.9278 31.7615 18.7325 31.7528 18.5392C32.6336 17.9023 33.3939 17.1135 33.9981 16.2099L34 16.207Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+                <a class="header__icon" href="https://web.telegram.org/k/" target="_blank">
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#C4C4C4"/>
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M31.5825 14.1118L12.9806 21.0358C11.7111 21.5279 11.7184 22.2115 12.7477 22.5164L17.5235 23.9544L28.5735 17.2249C29.096 16.918 29.5734 17.0831 29.181 17.4193L20.2283 25.2183H20.2262L20.2283 25.2193L19.8989 29.971C20.3815 29.971 20.5945 29.7573 20.8652 29.5052L23.1849 27.3278L28.0101 30.768C28.8998 31.241 29.5387 30.9979 29.7601 29.973L32.9276 15.564C33.2518 14.3093 32.4313 13.7411 31.5825 14.1118Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+                <a class="header__icon" href="https://mail.ru/" target="_blank">
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#C4C4C4"/>
+                        <rect width="45" height="45" rx="5" fill="#40B3E0"/>
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M15.2534 17.06C15.265 16.9459 15.2495 16.8306 15.2079 16.7235C15.1663 16.6164 15.0999 16.5204 15.014 16.4431L13.2394 14.3178V14H18.7475L23.0054 23.2859L26.7484 14H32V14.3178L30.4828 15.7625C30.4186 15.8115 30.369 15.8768 30.3393 15.9514C30.3097 16.026 30.3012 16.1072 30.3147 16.1862V26.8119C30.3012 26.8909 30.3097 26.9721 30.3393 27.0467C30.369 27.1214 30.4186 27.1866 30.4828 27.2356L31.9648 28.6812V29H24.5131V28.6822L26.0482 27.2009C26.1993 27.0509 26.1993 27.0069 26.1993 26.7781V18.1888L21.9319 28.9644H21.3562L16.3877 18.1888V25.4113C16.3468 25.7141 16.4485 26.0206 16.6632 26.24L18.6591 28.6475V28.9644H13V28.6475L14.995 26.24C15.1006 26.1313 15.1789 25.9998 15.2238 25.8559C15.2686 25.712 15.2788 25.5597 15.2534 25.4113V17.06Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+                <a class="header__icon" href="https://www.youtube.com/watch?v=MQM06kieupQ&ab_channel=HAJIMAN" target="_blank">
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M17 29.1683C17 29.9595 17.8753 30.4373 18.5408 30.0095L29.6915 22.8412C30.3038 22.4475 30.3038 21.5525 29.6915 21.1588L18.541 13.9905C17.8754 13.5627 17.0002 14.0405 17.0002 14.8317L17 29.1683Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="header__btns">
+                <button class="header__btn-white">Connect Wallet</button>
+                <button class="header__btn-red">Private Sale</button>
+            </div>
+
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <section class="team2">
+        <div class="container">
+            <h2 class="team2__title"><span class="team2__icon"><svg width="103" height="111" viewBox="0 0 103 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.056 33.7483L51.8012 14.7197L18.8858 31.1774C17.4304 31.9051 16.6294 33.5056 16.9192 35.1068L21.4147 59.9398V36.8031C21.4147 35.574 22.0311 34.4267 23.056 33.7483Z" fill="url(#paint0_linear_652_484)"/>
+<path d="M79.8917 33.7483L51.1466 14.7197L84.062 31.1774C85.5174 31.9051 86.3184 33.5056 86.0285 35.1068L81.533 59.9398V36.8031C81.533 35.574 80.9167 34.4267 79.8917 33.7483Z" fill="url(#paint1_linear_652_484)"/>
+<g filter="url(#filter0_d_652_484)">
+<path d="M48.6396 24.2324L29.8214 37.9645C28.4037 38.9991 27.5654 40.6486 27.5654 42.4036V59.6332C27.5654 61.3451 28.3632 62.9592 29.7232 63.9989L48.4636 78.3255C50.4337 79.8317 53.1685 79.8317 55.1386 78.3255L73.879 63.9989C75.239 62.9592 76.0368 61.3451 76.0368 59.6332V41.6416C76.0368 39.8419 75.1555 38.1562 73.6776 37.129L55.015 24.1589C53.0914 22.822 50.5318 22.8515 48.6396 24.2324Z" fill="url(#paint2_linear_652_484)"/>
+<path d="M48.6396 24.2324L29.8214 37.9645C28.4037 38.9991 27.5654 40.6486 27.5654 42.4036V59.6332C27.5654 61.3451 28.3632 62.9592 29.7232 63.9989L48.4636 78.3255C50.4337 79.8317 53.1685 79.8317 55.1386 78.3255L73.879 63.9989C75.239 62.9592 76.0368 61.3451 76.0368 59.6332V41.6416C76.0368 39.8419 75.1555 38.1562 73.6776 37.129L55.015 24.1589C53.0914 22.822 50.5318 22.8515 48.6396 24.2324Z" stroke="#816463" stroke-width="3.66355"/>
+</g>
+<g filter="url(#filter1_d_652_484)">
+<path d="M61.4861 47.2377V42.8722V40.189H58.8469H40.7461V40.3606V42.8722V49.5037V52.1895H43.3854H44.8297V56.9036H47.4534V52.1895V49.5037V49.258L50.3758 53.0267H51.7811L54.7035 49.258V49.5037V52.1895V56.9036H57.3298V52.1895H58.8469V58.961H43.3854V54.5954H40.7461V58.961V61.6442H43.3854H58.8469H61.4861V58.961V52.1895V49.8179V49.5037H57.3298V45.1355H54.8282L51.072 50.0054L47.3287 45.1355H44.8297V49.5037H43.3854V42.8722H58.8469V47.2377H61.4861Z" fill="#391812"/>
+</g>
+<g filter="url(#filter2_di_652_484)">
+<path d="M50.8878 6.75144L48.8091 10.8162L44.1584 11.4701C43.3243 11.5867 42.9901 12.5783 43.5949 13.1463L46.9596 16.3084L46.1638 20.7753C46.0206 21.5827 46.9023 22.1875 47.6409 21.8099L51.8014 19.7008L55.9619 21.8099C56.7004 22.1844 57.5822 21.5827 57.4389 20.7753L56.6431 16.3084L60.0078 13.1463C60.6127 12.5783 60.2784 11.5867 59.4444 11.4701L54.7936 10.8162L52.715 6.75144C52.3425 6.02692 51.2634 6.01771 50.8878 6.75144Z" fill="url(#paint3_linear_652_484)"/>
+</g>
+<g filter="url(#filter3_di_652_484)">
+<path d="M21.8566 8.18839L22.0888 12.7479L18.3881 15.6395C17.7242 16.1576 17.9305 17.1835 18.7383 17.3729L23.2333 18.429L24.7775 22.6954C25.0572 23.4663 26.1232 23.5491 26.574 22.8529L29.1225 18.9461L33.7802 18.6923C34.607 18.6474 35.0698 17.6854 34.542 17.0578L31.6194 13.5873L32.9523 9.16647C33.1921 8.3722 32.4068 7.68055 31.6262 7.99653L27.2716 9.7556L23.439 7.27479C22.7542 6.83356 21.8151 7.36514 21.8566 8.18839Z" fill="url(#paint4_linear_652_484)"/>
+</g>
+<g filter="url(#filter4_di_652_484)">
+<path d="M79.9475 7.27441L76.115 9.75522L71.7603 7.99615C70.9797 7.68017 70.1945 8.37182 70.4343 9.16609L71.7671 13.5869L68.8445 17.0574C68.3167 17.6851 68.778 18.6497 69.6063 18.692L74.264 18.9457L76.8126 22.8525C77.2649 23.5461 78.3294 23.4659 78.609 22.695L80.1533 18.4287L84.6483 17.3725C85.456 17.1831 85.6624 16.1572 84.9984 15.6392L81.2977 12.7475L81.5299 8.18801C81.5696 7.37433 80.6397 6.82679 79.9475 7.27441Z" fill="url(#paint5_linear_652_484)"/>
+</g>
+<defs>
+<filter id="filter0_d_652_484" x="0.733887" y="0.344238" width="102.135" height="109.943" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="12.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.84 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_652_484"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_652_484" result="shape"/>
+</filter>
+<filter id="filter1_d_652_484" x="40.7461" y="40.189" width="20.7402" height="23.2869" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1.83178"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.596078 0 0 0 0 0.380392 0 0 0 0 0.337255 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_652_484"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_652_484" result="shape"/>
+</filter>
+<filter id="filter2_di_652_484" x="35.959" y="6.20459" width="31.6845" height="34.038" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10.9907"/>
+<feGaussianBlur stdDeviation="3.66355"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_652_484"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_652_484" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3.66355"/>
+<feGaussianBlur stdDeviation="0.915888"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.909804 0 0 0 0 0.00784314 0 0 0 0 0.176471 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_652_484"/>
+</filter>
+<filter id="filter3_di_652_484" x="10.6646" y="7.11572" width="31.4291" height="34.5302" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10.9907"/>
+<feGaussianBlur stdDeviation="3.66355"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_652_484"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_652_484" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3.66355"/>
+<feGaussianBlur stdDeviation="0.915888"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.909804 0 0 0 0 0.00784314 0 0 0 0 0.176471 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_652_484"/>
+</filter>
+<filter id="filter4_di_652_484" x="61.2925" y="7.11377" width="31.4291" height="34.5306" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10.9907"/>
+<feGaussianBlur stdDeviation="3.66355"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_652_484"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_652_484" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3.66355"/>
+<feGaussianBlur stdDeviation="0.915888"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.909804 0 0 0 0 0.00784314 0 0 0 0 0.176471 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_652_484"/>
+</filter>
+<linearGradient id="paint0_linear_652_484" x1="45.6824" y1="16.4942" x2="33.396" y2="58.7775" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CA0329"/>
+<stop offset="1" stop-color="#94150E"/>
+</linearGradient>
+<linearGradient id="paint1_linear_652_484" x1="57.2654" y1="16.4942" x2="69.5518" y2="58.7775" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CA0329"/>
+<stop offset="1" stop-color="#94150E"/>
+</linearGradient>
+<linearGradient id="paint2_linear_652_484" x1="51.8011" y1="21.9253" x2="51.8011" y2="80.877" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5B2B30"/>
+<stop offset="0.572917" stop-color="#6B3935"/>
+<stop offset="0.984375" stop-color="#A25B48"/>
+</linearGradient>
+<linearGradient id="paint3_linear_652_484" x1="51.8014" y1="6.20459" x2="51.8014" y2="21.925" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D50224"/>
+<stop offset="1" stop-color="#B60024"/>
+</linearGradient>
+<linearGradient id="paint4_linear_652_484" x1="22.3744" y1="7.258" x2="30.2346" y2="20.8723" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D50224"/>
+<stop offset="1" stop-color="#B60024"/>
+</linearGradient>
+<linearGradient id="paint5_linear_652_484" x1="81.0121" y1="7.25762" x2="73.1519" y2="20.8719" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D50224"/>
+<stop offset="1" stop-color="#B60024"/>
+</linearGradient>
+</defs>
+</svg></span>TEAM</h2>
+            <div class="team2__row">
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Son Phung <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">CEO</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodiks.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Kevin Parson<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Chief Sales Officer (CSO)</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Jacob Wilson <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Chief Financial Officer (CFO)</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Hung Pham <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">CTO</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Tiep Do <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Chief Game Designer</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Khang Luu <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Game Dev Director</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Thang Nguyen <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Marketing Lead</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik7.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Ngô Văn <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Blockchain Dev Lead</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Vien Nguyen <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Creative Designer</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik9.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">hayon Philang <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Manager</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik10.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Leo Mikellanjello <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Tester</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik12.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Sonkloun Checlo <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">WEB DEV</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik15.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Khvan KO Hot <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Player</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik17.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">LI Man Lo <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Back-end DEV</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik18.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Chupa lo li <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Programmer</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik19.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Ki Vlan Do <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Medicine</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik20.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">KI ma No <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Assistant</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik21.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">LI man dolo <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Assistant</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik22.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Khvan lo Mideo <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Tester</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik23.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="team2__singular">
+                    <div class="team2__singular-content">
+                        <div class="team2__singular-logo ">
+                            <p class="team2__singular-text">Nizine Be Grace <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_652_499)">
+                                    <rect x="2.38086" y="2.38086" width="21.4286" height="20.2381" fill="white"/>
+                                    <path d="M21.3012 21.3015H17.597V15.5005C17.597 14.1171 17.5723 12.3364 15.6704 12.3364C13.7411 12.3364 13.4459 13.8436 13.4459 15.3998V21.3011H9.7418V9.37184H13.2978V11.0021H13.3476C13.7034 10.3936 14.2177 9.89304 14.8355 9.55369C15.4534 9.21434 16.1517 9.04892 16.8562 9.07506C20.6105 9.07506 21.3027 11.5446 21.3027 14.7573L21.3012 21.3015ZM5.56211 7.74127C4.3749 7.74147 3.4123 6.77916 3.41211 5.59196C3.41191 4.40475 4.37412 3.44215 5.56133 3.44196C6.74854 3.44166 7.71113 4.40397 7.71133 5.59117C7.71143 6.1613 7.48506 6.70811 7.082 7.11133C6.67895 7.51455 6.13223 7.74114 5.56211 7.74127ZM7.41426 21.3016H3.70615V9.37184H7.41416V21.3015L7.41426 21.3016ZM23.1479 0.00181952H1.84482C0.837988 -0.0095086 0.0123047 0.797034 0 1.80387V23.1958C0.0119141 24.2031 0.8375 25.0104 1.84473 24.9999H23.1479C24.1572 25.0124 24.986 24.205 25 23.1958V1.80221C24.9856 0.793421 24.1567 -0.0130242 23.1479 0.000159364" fill="#0A66C2"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_652_499">
+                                        <rect width="25" height="25" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg></p>
+                            <p class="team2__singular-subtitle">Accountant</p>
+                        </div>
+                        <div class="team2__singular-info">
+                            <img class="team2__singular-img" src="../../image/team/dodik24.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__content-left">
+                <p class="footer__title">Contact Us</p>
+                <div class="footer__content-icons">
+                    <a class="footer__content-icon" href="https://mail.ru/" target="_blank"><svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#C4C4C4"/>
+                        <rect width="45" height="45" rx="5" fill="#40B3E0"/>
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M15.2534 17.06C15.265 16.9459 15.2495 16.8306 15.2079 16.7235C15.1663 16.6164 15.0999 16.5204 15.014 16.4431L13.2394 14.3178V14H18.7475L23.0054 23.2859L26.7484 14H32V14.3178L30.4828 15.7625C30.4186 15.8115 30.369 15.8768 30.3393 15.9514C30.3097 16.026 30.3012 16.1072 30.3147 16.1862V26.8119C30.3012 26.8909 30.3097 26.9721 30.3393 27.0467C30.369 27.1214 30.4186 27.1866 30.4828 27.2356L31.9648 28.6812V29H24.5131V28.6822L26.0482 27.2009C26.1993 27.0509 26.1993 27.0069 26.1993 26.7781V18.1888L21.9319 28.9644H21.3562L16.3877 18.1888V25.4113C16.3468 25.7141 16.4485 26.0206 16.6632 26.24L18.6591 28.6475V28.9644H13V28.6475L14.995 26.24C15.1006 26.1313 15.1789 25.9998 15.2238 25.8559C15.2686 25.712 15.2788 25.5597 15.2534 25.4113V17.06Z" fill="white"/>
+                    </svg></a>
+                    <a class="footer__content-icon" href="https://web.telegram.org/k/" target="_blank"><svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#C4C4C4"/>
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M31.5825 14.1118L12.9806 21.0358C11.7111 21.5279 11.7184 22.2115 12.7477 22.5164L17.5235 23.9544L28.5735 17.2249C29.096 16.918 29.5734 17.0831 29.181 17.4193L20.2283 25.2183H20.2262L20.2283 25.2193L19.8989 29.971C20.3815 29.971 20.5945 29.7573 20.8652 29.5052L23.1849 27.3278L28.0101 30.768C28.8998 31.241 29.5387 30.9979 29.7601 29.973L32.9276 15.564C33.2518 14.3093 32.4313 13.7411 31.5825 14.1118V14.1118Z" fill="white"/>
+                    </svg></a>
+                    <a class="footer__content-icon" href="https://mail.ru/" target="_blank"><svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#C4C4C4"/>
+                        <rect width="45" height="45" rx="5" fill="#40B3E0"/>
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M15.2534 17.06C15.265 16.9459 15.2495 16.8306 15.2079 16.7235C15.1663 16.6164 15.0999 16.5204 15.014 16.4431L13.2394 14.3178V14H18.7475L23.0054 23.2859L26.7484 14H32V14.3178L30.4828 15.7625C30.4186 15.8115 30.369 15.8768 30.3393 15.9514C30.3097 16.026 30.3012 16.1072 30.3147 16.1862V26.8119C30.3012 26.8909 30.3097 26.9721 30.3393 27.0467C30.369 27.1214 30.4186 27.1866 30.4828 27.2356L31.9648 28.6812V29H24.5131V28.6822L26.0482 27.2009C26.1993 27.0509 26.1993 27.0069 26.1993 26.7781V18.1888L21.9319 28.9644H21.3562L16.3877 18.1888V25.4113C16.3468 25.7141 16.4485 26.0206 16.6632 26.24L18.6591 28.6475V28.9644H13V28.6475L14.995 26.24C15.1006 26.1313 15.1789 25.9998 15.2238 25.8559C15.2686 25.712 15.2788 25.5597 15.2534 25.4113V17.06Z" fill="white"/>
+                    </svg></a>
+                    <a class="footer__content-icon" href="https://www.youtube.com/" target="_blank"><svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="45" height="45" rx="5" fill="#111110"/>
+                        <path d="M17 29.1683C17 29.9595 17.8753 30.4373 18.5408 30.0095L29.6915 22.8412C30.3038 22.4475 30.3038 21.5525 29.6915 21.1588L18.541 13.9905C17.8754 13.5627 17.0002 14.0405 17.0002 14.8317L17 29.1683Z" fill="white"/>
+                    </svg></a>
+                </div>
+                <p class="footer__title">© 2021 MetaStorm. All rights reserved</p>
+            </div>
+            <div class="footer__content-right">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202845.1150338343!2d-122.18118264429104!3d37.40272091868318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2z0JrRgNC10LzQvdC40LXQstCw0Y8g0LTQvtC70LjQvdCwLCDQmtCw0LvQuNGE0L7RgNC90LjRjywg0KHQqNCQ!5e0!3m2!1sru!2skg!4v1642682504319!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
